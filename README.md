@@ -1,5 +1,8 @@
 # Vanta Creative
 
+![Hero Screenshot](hero-screenshot.png)
+
+
 Site conceito para um estudio premium de design, criado como projeto de portfolio.
 
 ## Sobre
