@@ -1,27 +1,47 @@
-# Cynthia Ugwu - A Clone of Awwwards Website
+# Vanta Creative
 
-<img src="banner.png" width=100%>
+Site conceito para um estudio premium de design, criado como projeto de portfolio.
 
-Cynthia Ugwu's website has been featured in [Awwwards](https://www.awwwards.com/sites/cynthia-ugwu) and has won multiple awards for its simplicity. I have tried to clone this award-winning website in as minimal a way as possible. I have taken some artistic liberties while making the website to make the code run smoother. The following frameworks and languages have been used for this website:
+## Sobre
+
+A proposta da Vanta Creative e manter a energia do site original em preto e branco, com tipografia grande, hover de imagens nos projetos e animacoes GSAP, mas expandir a pagina para parecer um site completo de estudio.
+
+## Secoes
+
+- Hero tipografico com imagem de fundo gerada por IA.
+- Projetos selecionados com imagem seguindo o cursor.
+- Manifesto editorial.
+- Servicos em grid assimetrico.
+- Metricas de impacto.
+- Processo em timeline.
+- Sistema visual com assets gerados por IA.
+- Sobre o estudio.
+- Contato e footer.
+
+## Tecnologias
+
 - HTML
-- JavaScript
 - CSS
-- SCSS
-- GSAP Framework
-- Locomotive Scroll Framework
-- Git (for Version Control)
+- JavaScript
+- GSAP
+- ScrollTrigger
+- Remix Icon
 
-> ### _"My portfolio website aims to captivate and inspire visitors. With the primary objective of highlighting my skills, experience, and unique design approach." - Cynthia Ugwu_
+## Checklist para subir ao GitHub
 
-## What to Look Out For?
+- Conteudo traduzido para PT-BR.
+- Metatags basicas adicionadas.
+- Favicon SVG e Apple touch icon adicionados.
+- Assets locais gerados por IA dentro de `assets/`.
+- Terceira cor adicionada: cobre queimado (`#B87333`).
+- Scroll reveal com fallback para evitar secoes invisiveis.
+- Pagina 404 personalizada.
+- Layout responsivo para desktop e mobile.
 
-The website is an Awwward-winning website, hence there would definitely be something to look out for. 
-- Look out for the **entry animation** on the homepage.
-- Look out for **Mouse Follower Circle** on desktop devices.
-- Look out for the **Menu Section** that has a hover effect.
+## Como rodar
 
-## Screenshots
+Abra `index.html` no navegador ou sirva a pasta com um servidor estatico:
 
-<img src = "screenshots/1.png" width=100%>
-<img src = "screenshots/2.png" width=100%>
-<img src = "screenshots/3.png" width=100%>
+```bash
+python -m http.server 4177
+```

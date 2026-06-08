@@ -1,288 +1,349 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cynthia Ugwu • Product Designer</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mobilestyle.css" />
-    <!-- FAVICON -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <!-- ICONS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-      rel="stylesheet"
+    <meta
+      name="description"
+      content="Vanta Creative e um estudio premium de design para identidades, produtos digitais e sistemas de lancamento."
     />
-    <!-- SMOOTH LOCOMOTIVE SCROLLING -->
-    <link rel="stylesheet" href="locomotive.css" />
+    <meta property="og:title" content="Vanta Creative - Estudio de Design" />
+    <meta property="og:description" content="Sistemas de marca, interface e campanha com uma direcao visual precisa." />
+    <meta property="og:image" content="assets/vanta-preview.png" />
+    <meta name="theme-color" content="#f2eee7" />
+    <title>Vanta Creative - Estudio de Design</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <!-- CODE FOR NAVIGATION BAR
-    <div class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#">Home</a>
-      <a href="#">The Plug</a>
-      <a href="#">Ixperience</a>
-      <a href="#">Hudu</a>
-    </div> -->
+  <body data-theme="light">
+    <a class="skip-link" href="#main">Pular para o conteudo</a>
 
-    <!-- THIS MINI CIRCLE WILL FOLLOW THE MOUSE POINTER ON DESKTOP -->
     <div id="minicircle">
-      <div id="minicircle-text">VISIT</div>
+      <div id="minicircle-text">VER</div>
     </div>
 
-    <!-- DESKTOP CODE STARTS FROM HERE. IT WILL NOT BE VISIBLE ON MOBILE DEVICES -->
-    <div id="main">
-      <div id="hero">
-        <div id="nav">
-          <!-- <div class="bounding"> -->
-          <!-- <div class="boundingtext"> -->
-          <a href="#">Cynthia Ugwu</a>
-          <!-- </div></div> -->
-          <!-- <span onclick="openNav()"><a href="" onclick="openNav()"> -->
-            <a href="#js-target" data-scroll-to><h4>MENU</h4></a>
-          <!-- </a></span> -->
+    <nav id="nav">
+      <a href="#hero">Vanta Creative</a>
+      <div class="nav-actions">
+        <div class="nav-links">
+          <a href="#work">Projetos</a>
+          <a href="#services">Servicos</a>
+          <a href="#contact">Contato</a>
         </div>
+      </div>
+    </nav>
+    <button class="theme-toggle site-theme-toggle" type="button" aria-label="Alternar tema" aria-pressed="false">
+      <i class="fa-solid fa-sun" aria-hidden="true"></i>
+      <span>Tema</span>
+    </button>
+
+    <main id="main">
+      <section id="hero">
+        <img
+          class="hero-bg"
+          src="assets/vanta-hero.png"
+          alt=""
+          aria-hidden="true"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+
         <div id="heading">
           <div class="bounding">
-            <h1 class="boundingtext">Product</h1>
+            <h1 class="boundingtext">Vanta</h1>
           </div>
           <div class="blocktext">
             <div class="bounding">
-              <h1 id="secondh1" class="boundingtext">Designer</h1>
+              <h1 id="secondh1" class="boundingtext">Creative</h1>
             </div>
             <div class="bounding">
-              <h5 class="boundingtext">Based in Toronto</h5>
+              <h5 class="boundingtext">Estudio de design / global</h5>
             </div>
           </div>
         </div>
+
         <div id="chhoti-headings">
           <div class="bounding">
-            <h5 class="boundingtext">Available for Freelance</h5>
+            <h5 class="boundingtext">Sistemas de marca, interfaces, campanhas</h5>
           </div>
           <div class="bounding">
-            <h5 class="boundingtext">Work from May 23'</h5>
+            <h5 class="boundingtext">Aberto para lancamentos selecionados em 2026</h5>
           </div>
         </div>
-        <div id="herofooter">
-          <!-- <div class="bounding"> -->
-          <!-- <div class="boundingtext"> -->
-          <a
-            href="https://dhruvbadaya.com/cynthiaugwu/"
-            class="hover-underline-animation"
-            >previously worked at yml <i class="ri-arrow-right-up-line"></i
-          ></a>
-          <!-- </div> -->
-          <!-- </div> -->
-          <!-- <div class="bounding"> -->
-          <!-- <div class="boundingtext"> -->
-          <a
-            href="https://dhruvbadaya.com/cynthiaugwu/"
-            class="hover-underline-animation"
-            >protopie ambasssador <i class="ri-arrow-right-up-line"></i
-          ></a>
-          <!-- </div> -->
-          <!-- </div> -->
-          <div id="icon-set">
-           <a href="#js-target" data-scroll-to>
-            <div id="circle"><i class="ri-arrow-down-line"></i></div></a>
-            <a href="#js-target" data-scroll-to> <div id="circle"><i class="ri-arrow-down-line"></i></div></a>
-          </div>
-        </div>
-      </div>
-      
-      <div id="second">
-        <section id="js-target"></section>
-        <a href=""
-          ><div class="elem">
-            <img src="assets/plug.png" alt="" />
-            <h1>The Plug</h1>
-            <h5>2022</h5>
-          </div></a
-        >
-        <a href=""
-          ><div class="elem">
-            <img src="assets/ixperience.png" alt="" />
-            <h1>Ixperience</h1>
-            <h5>2022</h5>
-          </div></a
-        >
-        <a href=""
-          ><div class="elem elemlast">
-            <img src="assets/hudu.png" alt="" />
-            <h1>Hudu</h1>
-            <h5>2022</h5>
-          </div></a
-        >
-        <br />
-      </div>
-      <div class="about">
-        <img src="assets/cynthia.png" alt="" />
-        <div id="textabout">
-          <h5>(About Me)</h5>
+
+        <div id="hero-intro">
           <p>
-            I'm a product designer with a passion for creating products that not
-            only look good but also solve real problems. When I'm not sketching
-            ideas on paper, you can find me binge-watching a Netflix series or
-            playing video games. My design philosophy is simple: make it
-            visually appealing, functional, and bring a smile to people's faces.
-            I'm the designer you want on your team if you want to make people
-            say 'I need that in my life!'.
+            Identidade, interface e launch systems para marcas que precisam
+            chegar ao mercado com presenca pronta, direta e memoravel.
           </p>
-          <a href="https://dhruvbadaya.com/cynthiaugwu/">Let's Talk</a>
+          <a class="primary-cta" href="mailto:hello@vantacreative.studio">
+            <span class="cta-label">Vamos conversar</span>
+            <span aria-hidden="true"><i class="fa-solid fa-arrow-right-long"></i></span>
+          </a>
         </div>
-      </div>
-      <div class="subscribe">
-        <h5>(forgot to mention)</h5>
-        <a href="https://dhruvbadaya.com/cynthiaugwu/"
-          ><h3 class="hover-underline-animation">
-            Subscribe to my YouTube Channel
-            <i class="ri-arrow-right-up-line"></i></h3
-        ></a>
-      </div>
-      <div class="footer">
-        <div class="footer-left">
-          <h5>2023 &copy;</h5>
-          <h5 id="time">00:05 AM EST</h5>
-        </div>
-        <div class="footer-right">
-          <a href="https://dhruvbadaya.com/cynthiaugwu/">DRIBBBLE</a>
-          <a href="https://dhruvbadaya.com/cynthiaugwu/">INSTAGRAM</a>
-          <a href="https://dhruvbadaya.com/cynthiaugwu/">LINKEDIN</a>
-          <a href="https://dhruvbadaya.com/cynthiaugwu/">TWITTER</a>
-        </div>
-      </div>
-    </div>
+      </section>
 
-    <!-- MOBILE CODE STARTS FROM HERE AND IS INDEPENDENT OF THE DESKTOP CODE -->
-    <div id="mainmobile">
-      <!-- <div id="main"> -->
-      <div id="hero">
-        <div class="mobile-banner">
-          This website is better on a desktop / laptop. 🧑‍💻
+      <section id="work" class="line-section">
+        <div class="section-kicker" data-reveal>
+          <h5>(projetos selecionados)</h5>
+          <p>Tres direcoes para marcas que precisam parecer completas desde o primeiro contato.</p>
         </div>
-        <div id="nav">
-          <!-- <div class="bounding"> -->
-          <!-- <div class="boundingtext"> -->
-          <a href="#">Cynthia Ugwu</a>
-          <!-- </div></div> -->
-          <a href="#js-target2" data-scroll-to><h4 class="menu">MENU</h4></a>
-        </div>
-        <div id="heading">
-          <div class="bounding">
-            <h1 class="boundingtext">Product</h1>
+
+        <a href="#studio">
+          <div class="elem" data-reveal data-reveal-direction="left">
+            <img src="assets/case-orbit.png" alt="Arte de identidade visual da Orbit Bank" />
+            <h1>Orbit Bank</h1>
+            <h5>Identidade / 2026</h5>
           </div>
-          <div class="blocktext">
-            <div class="bounding">
-              <h1 id="secondh1" class="boundingtext">Designer</h1>
+        </a>
+        <a href="#studio">
+          <div class="elem" data-reveal data-reveal-direction="left" data-reveal-delay="0.04">
+            <img src="assets/case-atelier.png" alt="Arte editorial de comercio da Atelier Noma" />
+            <h1>Atelier Noma</h1>
+            <h5>Comercio / 2026</h5>
+          </div>
+        </a>
+        <a href="#studio">
+          <div class="elem elemlast" data-reveal data-reveal-direction="left" data-reveal-delay="0.08">
+            <img src="assets/case-signal.png" alt="Arte de interface da Signal Foundry" />
+            <h1>Signal Foundry</h1>
+            <h5>Produto / 2025</h5>
+          </div>
+        </a>
+      </section>
+
+      <section class="manifesto">
+        <div class="manifesto-head">
+          <aside class="manifesto-aside" data-reveal>
+            <h5>(manifesto)</h5>
+            <p>
+              Direcao visual para companhias jovens que precisam sair do rascunho
+              e parecer inevitaveis no primeiro contato.
+            </p>
+            <div class="manifesto-tags" aria-label="Frentes de trabalho">
+              <span>Identidade</span>
+              <span>Interface</span>
+              <span>Lancamento</span>
             </div>
-            <div class="bounding">
-              <h5 class="boundingtext">Based in Toronto</h5>
+            <div class="manifesto-aside-grid">
+              <div>
+                <strong>72h</strong>
+                <small>rota visual inicial</small>
+              </div>
+              <div>
+                <strong>03</strong>
+                <small>sistemas no mesmo eixo</small>
+              </div>
             </div>
-          </div>
-        </div>
-        <div id="chhoti-headings">
-          <div class="bounding">
-            <h5 class="boundingtext">Available for Freelance</h5>
-          </div>
-          <div class="bounding">
-            <h5 class="boundingtext">Work from May 23'</h5>
-          </div>
-        </div>
-        <div id="herofooter">
-          <!-- <div class="bounding"> -->
-          <!-- <div class="boundingtext"> -->
-          <a
-            href="https://dhruvbadaya.com/cynthiaugwu/"
-            class="hover-underline-animation"
-            >previously worked at yml <i class="ri-arrow-right-up-line"></i
-          ></a>
-          <!-- </div> -->
-          <!-- </div> -->
-
-          <!-- <div class="bounding"> -->
-          <!-- <div class="boundingtext"> -->
-          <a
-            href="https://dhruvbadaya.com/cynthiaugwu/"
-            class="hover-underline-animation"
-            >protopie ambasssador <i class="ri-arrow-right-up-line"></i
-          ></a>
-          <!-- </div> -->
-          <!-- </div> -->
-        </div>
-      </div>
-
-      <div id="second">
-        <section id="js-target2"></section>
-        <div class="elem">
-          <img src="assets/plug.png" alt="" />
-          <h1>The Plug</h1>
-          <h5>2022</h5>
+          </aside>
+          <h2 data-letter-reveal>Fazer a empresa parecer completa antes do mercado perceber.</h2>
         </div>
 
-        <div class="elem">
-          <img src="assets/ixperience.png" alt="" />
-          <h1>Ixperience</h1>
-          <h5>2022</h5>
+        <div class="manifesto-board">
+          <div class="manifesto-media" data-reveal data-reveal-direction="clip">
+            <img src="assets/studio-mark.png" alt="Painel abstrato do sistema visual da Vanta Creative" loading="lazy" decoding="async" />
+          </div>
+
+          <div class="manifesto-copy" data-reveal data-reveal-delay="0.1">
+            <span>01 / posicao</span>
+            <p>
+              A Vanta Creative cria sistemas de identidade, interface e lancamento
+              com a mesma objetividade do site original: tipografia grande,
+              espacamento confiante, pouca friccao e um ponto de vista que aparece rapido.
+            </p>
+          </div>
+
+          <div class="manifesto-note" data-reveal data-reveal-delay="0.18">
+            <span>Regra de operacao</span>
+            <p>Nada decorativo sem funcao. Cada quadro precisa vender confianca, gosto ou movimento.</p>
+          </div>
         </div>
-        <div class="elem elemlast">
-          <img src="assets/hudu.png" alt="" />
-          <h1>Hudu</h1>
-          <h5>2022</h5>
+      </section>
+
+      <section id="services" class="services-section">
+        <div class="section-kicker service-kicker" data-reveal>
+          <h5>(servicos)</h5>
+          <p>Tres ofertas desenhadas como sistemas de producao, nao como pacotes genericos de agencia.</p>
         </div>
-        <br />
-      </div>
-      <div class="about">
-        <img src="assets/cynthia.png" alt="" />
-        <div id="textabout">
-          <h5>(About Me)</h5>
+
+        <div class="service-grid">
+          <article class="service-card service-card-large" data-reveal>
+            <span>01</span>
+            <h3>Sistemas de marca</h3>
+            <p>
+              Posicionamento, arquitetura de logo, tipografia, cor, direcao de arte
+              e regras de uso para equipes que precisam de uma linguagem visual clara.
+            </p>
+            <small>Identidade / guias / kit de lancamento</small>
+          </article>
+
+          <article class="service-card" data-reveal data-reveal-delay="0.08">
+            <span>02</span>
+            <h3>Produtos digitais</h3>
+            <p>Sites, UI de produto, onboarding, design systems e QA visual.</p>
+            <small>Interface / sistema / web</small>
+          </article>
+
+          <article class="service-card service-card-offset" data-reveal data-reveal-delay="0.16">
+            <span>03</span>
+            <h3>Mundos de campanha</h3>
+            <p>Imagens hero, kits sociais, visuais para decks, motion e pecas de rollout.</p>
+            <small>Motion / conteudo / campanha</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="metrics">
+        <div class="metric-lead" data-reveal>
+          <h5>(impacto)</h5>
+          <p>Numeros como retrato de estudio, nao como dashboard.</p>
+        </div>
+        <div class="metric-main" data-reveal data-reveal-delay="0.08">
+          <h2 data-count="4.7" data-suffix="x" data-decimals="1">4.7x</h2>
+          <p>aumento medio em contatos qualificados de lancamento</p>
+        </div>
+        <div class="metric-side" data-reveal data-reveal-delay="0.16">
+          <h2 data-count="31" data-decimals="0">31</h2>
+          <p>sistemas de marca e interface entregues</p>
+        </div>
+        <div class="metric-side" data-reveal data-reveal-delay="0.24">
+          <h2 data-count="9.4" data-decimals="1">9.4</h2>
+          <p>avaliacao media em projetos recentes do estudio</p>
+        </div>
+      </section>
+
+      <section id="process" class="process">
+        <div class="process-head">
+          <h5 data-reveal>(processo)</h5>
+          <h2 data-letter-reveal="process">Um ritmo de estudio senior sem peso de agencia grande.</h2>
+        </div>
+        <div class="process-list">
+          <div data-reveal data-reveal-direction="left">
+            <span>01</span>
+            <h3>Encontrar o corte</h3>
+            <p>Definir publico, pressao da categoria, promessa e a unica coisa que a marca precisa deixar obvia.</p>
+          </div>
+          <div data-reveal data-reveal-direction="left" data-reveal-delay="0.08">
+            <span>02</span>
+            <h3>Construir o sistema</h3>
+            <p>Criar identidade, direcao de interface, regras visuais e principios de motion como uma linguagem unica.</p>
+          </div>
+          <div data-reveal data-reveal-direction="left" data-reveal-delay="0.16">
+            <span>03</span>
+            <h3>Embalar o lancamento</h3>
+            <p>Entregar direcao do site, assets para deck, frames sociais, guias e arquivos de handoff.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="visual-lab">
+        <div class="visual-lab-copy">
+          <h5 data-reveal>(sistema visual)</h5>
+          <h2 data-text-reveal>Preto, branco e cobre para dar assinatura sem perder a secura original.</h2>
+        </div>
+        <div class="visual-lab-grid">
+          <img
+            src="assets/vanta-preview.png"
+            alt="Composicao visual em preto, branco e cobre para preview da Vanta Creative"
+            loading="lazy"
+            decoding="async"
+            data-reveal
+            data-reveal-direction="clip"
+          />
+          <img
+            src="assets/vanta-ai-contact-sheet.png"
+            alt="Folha de assets gerados por IA para a identidade visual da Vanta Creative"
+            loading="lazy"
+            decoding="async"
+            data-reveal
+            data-reveal-delay="0.12"
+          />
+        </div>
+      </section>
+
+      <section id="studio" class="about">
+        <img src="assets/studio-mark.png" alt="Marca abstrata do estudio Vanta Creative" data-reveal />
+        <div id="textabout" data-reveal>
+          <h5>(sobre a Vanta)</h5>
           <p>
-            I'm a product designer with a passion for creating products that not
-            only look good but also solve real problems. When I'm not sketching
-            ideas on paper, you can find me binge-watching a Netflix series or
-            playing video games. My design philosophy is simple: make it
-            visually appealing, functional, and bring a smile to people's faces.
-            I'm the designer you want on your team if you want to make people
-            say 'I need that in my life!'.
+            Vanta Creative e um conceito de estudio premium criado para este portfolio.
+            Ele mantem a sensacao original em preto e branco, guiada por tipografia,
+            e expande o projeto com hero mais forte, assets melhores, servicos,
+            processo, metricas e um caminho claro de contato.
           </p>
-          <a href="https://dhruvbadaya.com/cynthiaugwu/">Let's Talk</a>
+          <a class="primary-cta secondary-cta" href="mailto:hello@vantacreative.studio">
+            <span class="cta-label">Vamos conversar</span>
+            <span aria-hidden="true"><i class="fa-solid fa-arrow-right-long"></i></span>
+          </a>
         </div>
-      </div>
-      <div class="subscribe">
-        <h5>(forgot to mention)</h5>
-        <a href="https://dhruvbadaya.com/cynthiaugwu/"
-          ><h3 class="hover-underline-animation">
-            Subscribe to my YouTube Channel
-            <i class="ri-arrow-right-up-line"></i></h3
-        ></a>
-      </div>
-      <div class="footer">
-        <div class="footer-left">
-          <h5>2023 &copy;</h5>
-          <h5 id="time2">00:05 AM EST</h5>
-        </div>
-        <div class="footer-right">
-          <a href="https://dhruvbadaya.com/cynthiaugwu/">DRIBBBLE</a>
-          <a href="https://dhruvbadaya.com/cynthiaugwu/">INSTAGRAM</a>
-          <a href="https://dhruvbadaya.com/cynthiaugwu/">LINKEDIN</a>
-          <div class="hidemobile"><a href="https://dhruvbadaya.com/cynthiaugwu/">TWITTER</a></div>
-        </div>
-      </div>
-      <!-- </div> -->
-    </div>
+      </section>
 
-    <!-- SCRIPTS BELOW -->
+      <section id="contact" class="subscribe">
+        <div data-reveal>
+          <h5>(pronto quando voce estiver)</h5>
+          <a href="mailto:hello@vantacreative.studio">
+            <h3 class="hover-underline-animation">
+              hello@vantacreative.studio
+              <span class="link-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right-long"></i></span>
+            </h3>
+          </a>
+        </div>
+      </section>
+    </main>
 
-    <!-- GSAP -->
+    <footer class="footer">
+      <div class="footer-brand" data-reveal>
+        <span>Vanta Creative</span>
+        <p>
+          Estudio ficticio de design premium para identidade, produto digital e
+          sistemas de lancamento.
+        </p>
+        <a class="footer-email" href="mailto:hello@vantacreative.studio">hello@vantacreative.studio</a>
+      </div>
+      <div class="footer-links" data-reveal data-reveal-delay="0.08">
+        <div>
+          <h5>Mapa</h5>
+          <a href="#work">Projetos</a>
+          <a href="#services">Servicos</a>
+          <a href="#process">Processo</a>
+          <a href="#studio">Estudio</a>
+        </div>
+        <div>
+          <h5>Social</h5>
+          <a href="#hero">Behance</a>
+          <a href="#hero">Instagram</a>
+          <a href="#hero">LinkedIn</a>
+          <a href="#hero">Topo</a>
+        </div>
+      </div>
+      <div class="footer-meta" data-reveal data-reveal-delay="0.16">
+        <h5>2026 &copy;</h5>
+        <h5 id="time">00:00</h5>
+      </div>
+    </footer>
+
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
-      integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
-    <!-- SMOOTH LOCOMOTIVE SCROLLING -->
-    <script src="locomotive-scroll.min.js"></script>
-    <script src="script.js"></script> 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://unpkg.com/lenis@1.3.13/dist/lenis.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>
